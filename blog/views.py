@@ -7,6 +7,6 @@ class HomePageView(ListView):
     model = Post
 
 # add detail view
-class DetailView(TemplateView):
+class DetailView(DetailView):
     template_name = "post_detail.html"
     model = Post
