@@ -70,3 +70,21 @@ Feature Tasks and Requirements
 - add multiple models
 - use an alternate test runner
 - add more advanced fields to models, e.g. created time stamp
+
+lab 28
+
+[x] Create BlogListView that extends appropriate generic view
+[x] associated url path is an empty string
+[x] Create BlogDetailView that extends appropriate generic view
+[x] associated url path is post/<int:pk>/
+[x] Create BlogCreateView that extends appropriate generic view
+[] associated url path is post/new/
+[x] Create BlogUpdateView that extends appropriate generic view
+[] associated url path is post/<int:pk>/edit/
+[x] Create BlogDeleteView that extends appropriate generic view
+[] associated url path is post/<int:pk>/delete/
+[] Add urls to support all views, with appropriate names
+[] Add templates to support all views
+[] Add navigation links in appropriate locations to access all pages
+[] Make all necessary changes to project level files for project to run
+[] In other words, make it work
