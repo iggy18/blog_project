@@ -2,9 +2,13 @@
 
 {% block content %}
 
-<h2> blog post </h2>
-<h2> {{ object.title }} </h2>
-<h3> {{ object.author }} </h3>
-<h3> {{ object.body }} </h3>
+<div class="blog_post">
+    <h2> blog post </h2>
+    <h2> {{ object.title }} </h2>
+    <h3> {{ object.author }} </h3>
+    <h3> {{ object.body }} </h3>
+    <a href="{% url 'edit_post' post.pk %}">+ Edit post</a>
+    <a href="{% url 'edit_post' post.pk %}">+ Delete post</a>
+</div>
 
 {% endblock content %}

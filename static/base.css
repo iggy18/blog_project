@@ -3,4 +3,7 @@ body{
     color: white;
 }
 
-h1{}
+h1{
+    background-color: darkblue;
+    color: red;
+}
